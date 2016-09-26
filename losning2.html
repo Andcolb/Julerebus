@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>løsning 2</title>
+<meta charset="UTF-8">
+
+<style>
+body {background-color: black;} 
+</style>
+
+<font color="white" align="center">
+<h1>oppgavetekst her</h1>
+</font>
+
+
+<script type="text/javascript">
+function TheLogin() {
+
+var password1 = 'en';
+
+if (this.document.login.pass1.value == password1) {
+  top.location.href="runde3.html";
+}
+
+else {
+  window.alert("feil passord, prøv igjen.");
+  }
+}
+
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<br><br><br><br>
+
+
+
+
+<div style="text-align: center; margin: 0 auto; color: #ffffff; font: normal 13px arial, sans-serif;">
+<form name="login" style="margin: 5px 0px 0px 0px;">
+<input type="text" name="pass1" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br></br>
+<input type="button" value="send" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+</form>
+
+
+
+</div>
+
+
+
+
+
+<br><br><br>
+
+</body>
+</html>

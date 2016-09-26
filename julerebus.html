@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Julerebus 2016 - runde 1</title>
+<meta charset="UTF-8">
+
+<style>
+body {background-color: black;}
+
+</style>
+
+
+
+
+<script type="text/javascript">
+function TheLogin() {
+
+var password1 = 'øpø';
+var password2 = 'to';
+var password3 = 'tre';
+
+if (this.document.login.pass1.value == password1 && this.document.login.pass2.value == password2 && this.document.login.pass3.value == password3 ) {
+  top.location.href="losning1.html";
+}
+
+if (this.document.login.pass1.value == password1) {
+	window.alert("stian rett")
+	}
+	
+if (this.document.login.pass2.value == password2) {
+	window.alert("mamma rett")
+	}
+	
+if (this.document.login.pass3.value == password3) {
+	window.alert("pappa rett")
+	}
+
+else {
+  window.alert("feil passord, prøv igjen.");
+  }
+}
+
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<br><br><br><br>
+
+
+
+
+<div style="text-align: center; margin: 0 auto; color: #ffffff; font: normal 13px arial, sans-serif;">
+<form name="login" style="margin: 5px 0px 0px 0px;">
+Stian<br>
+<input type="text" name="pass1" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br></br>
+Mamma<br>
+<input type="text" name="pass2" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br></br>
+Pappa<br>
+<input type="text" name="pass3" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br></br>
+<input type="button" value="Send" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+</form>
+
+
+
+</div>
+
+
+
+
+
+<br><br><br>
+
+</body>
+</html>

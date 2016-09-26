@@ -1,0 +1,37 @@
+<p>Login
+<script type="text/javascript">// <![CDATA[
+function TheLogin() {
+
+var password1 = 'en';
+var password2 = 'to';
+var password3 = 'tre';
+
+if (this.document.login.pass1.value == password1 && this.document.login.pass2.value == password2 && this.document.login.pass3.value == password3 ) {
+  top.location.href="losning1.html";
+}
+
+if (this.document.login.pass1.value == password1) {
+	window.alert("stian rett")
+	}
+	
+if (this.document.login.pass2.value == password2) {
+	window.alert("mamma rett")
+	}
+	
+if (this.document.login.pass3.value == password3) {
+	window.alert("pappa rett")
+	}
+
+else {
+  window.alert("feil passord, prøv igjen.");
+  }
+}
+// ]]></script>
+<br /><br /><br /><br /></p>
+<div style="text-align: center; margin: 0 auto; color: #ffffff; font: normal 13px arial, sans-serif;">Skriv svar her<br /><form style="margin: 5px 0px 0px 0px;" name="login">
+<p>Stian: &nbsp; &nbsp; &nbsp;<input style="width: 130px;" name="pass1" size="17" type="text" /></p>
+<p>Mamma: <input style="width: 130px;" name="pass2" size="17" type="text" /></p>
+<p>Pappa: &nbsp; &nbsp;<input style="width: 130px;" name="pass3" size="17" type="text" /></p>
+<p><input style="width: 134px; margin: 4px auto 4px auto;" type="button" value="trykk her" /></p>
+</form></div>
+<p><br /><br /><br /></p>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+
+<a id="index"></a>
+<script type="text/javascript" src="puzzles.js"></script>
+
+<script type="text/javascript" src="freaky_frogs.js"></script>
+
+<script type="text/javascript">
+	var freaky_frogs_youhavewon="Pakken er bak lysbryteren på loftet";
+	var freaky_frogs_youhavelost="ingen mulige bevegelser, prøv igjen";
+	var freaky_frogs_thismoveisnotpossible="Har du lest reglene?";
+</script>
+
+
+
+
+<span class="text1">H</span>er er en dam med seks frosker. Du må bytte posisjonen til du brune og grønne froskene ved å bruke følgende regler:
+</p>
+<ul>
+<li>Froskene kan bare hoppe til en ledig vannlilje;</li>
+<li>Froskene kan maksimalt hoppe over en annen frosk, som har en annen farge;</li>
+<li>Froskene kan bare hoppe forover (grønne frosker til høyre, brune frosker til venstre).</li>
+</ul>
+<p>
+
+</p>
+<table style="border-collapse: collapse; border-spacing: 0;">
+<tbody><tr>
+<td style="text-align: center; vertical-align: middle; width: 850px; height: 510px; padding: 0px;">
+<img src="freaky_frogs_background.jpg" style="vertical-align: bottom; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;" width="815" height="600" alt="Puzzle"><img src="freaky_frogs_green.jpg" id="freaky_frogs_field0" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -754px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(0)">
+<img src="freaky_frogs_green.jpg" id="freaky_frogs_field1" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -639px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(1)">
+<img src="freaky_frogs_green.jpg" id="freaky_frogs_field2" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -524px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(2)">
+<img src="freaky_frogs_empty.jpg" id="freaky_frogs_field3" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -409px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(3)">
+<img src="freaky_frogs_brown.jpg" id="freaky_frogs_field4" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -294px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(4)">
+<img src="freaky_frogs_brown.jpg" id="freaky_frogs_field5" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -179px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(5)">
+<img src="freaky_frogs_brown.jpg" id="freaky_frogs_field6" style="vertical-align: bottom; margin: -56px -56px -56px -56px; padding: 0px 0px 0px 0px; position:relative; top: -170px; left: -64px" width="112" height="112" alt="Puzzle" onclick="freaky_frogs_move(6)">
+</td>
+<td style="padding: 0px;">
+<form>
+<input type="button" name="freaky_frogs_restartbutton" value="Reset" onclick="freaky_frogs_restart()">
+</form>
+</td>
+</tr>
+</tbody></table>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Glade Jul</title>
+<meta charset="UTF-8">
+
+<style>
+body {background-color: black;} 
+</style>
+
+
+<audio controls>
+	<source src="godjul.mp3" type="audio/mpeg">
+</audio>
+
+
+<script type="text/javascript">
+function TheLogin() {
+
+var password1 = 'Julenisse';
+
+
+if (this.document.login.pass1.value == password1) {
+  top.location.href="Endeligoppgave.html";
+}
+
+else {
+  window.alert("feil passord, prøv igjen.");
+  }
+}
+
+</script>
+
+
+
+
+
+</head>
+
+<body>
+
+<br><br><br><br>
+
+
+
+
+<div style="text-align: center; margin: 0 auto; color: #ffffff; font: normal 13px arial, sans-serif;">
+<form name="login" style="margin: 5px 0px 0px 0px;">
+<input type="text" name="pass1" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br></br>
+<input type="button" value="" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+</form>
+
+
+
+</div>
+
+
+
+
+
+<br><br><br>
+
+</body>
+</html>
